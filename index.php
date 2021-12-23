@@ -14,41 +14,42 @@
 <div class="wrapper">
     <section class="form signup">
         <header>Family Chat</header>
-        <form action="#">
-            <div class="error-txt">Це повідомлення про помилку!</div>
+        <form action="#" enctype="multipart/form-data">
+            <div class="error-txt"></div>
             <div class="name-details">
                 <div class="field input">
                     <label for="">Ім`я</label>
-                    <input type="text" placeholder="Ім`я">
+                    <input type="text" name="fname" placeholder="Ім`я" required>
                 </div>
                 <div class="field input">
                     <label for="">Прізвище</label>
-                    <input type="text" placeholder="Прізвище">
+                    <input type="text" name="lname" placeholder="Прізвище" required>
                 </div>
             </div>
 
             <div class="field input">
                 <label for="">Email</label>
-                <input type="text" placeholder="Введіть email">
+                <input type="text" name="email" placeholder="Введіть email" required>
             </div>
             <div class="field input">
                 <label for="">Пароль</label>
-                <input type="password" placeholder="Введіть новий пароль">
+                <input type="password" name="password" placeholder="Введіть новий пароль" required>
                 <i class="fas fa-eye"></i>
             </div>
             <div class="field image">
                 <label for="">Виберіть фото</label>
-                <input type="file">
+                <input type="file" name="image" required>
             </div>
             <div class="field button">
                 <input type="submit" value="Пачати спілкування">
             </div>
         </form>
-        <div class="link">Вже зареєстровані? <a href="#">Увійдіть зараз</a></div>
+        <div class="link">Вже зареєстровані? <a href="login.php">Увійдіть зараз</a></div>
     </section>
 </div>
 
 <script src="js/pass-show-hide.js"></script>
+<script src="js/signup.js"></script>
 
 </body>
 </html>
