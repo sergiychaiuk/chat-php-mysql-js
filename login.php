@@ -15,15 +15,15 @@
     <section class="form login">
         <header>Family Chat</header>
         <form action="#">
-            <div class="error-txt">Це повідомлення про помилку!</div>
+            <div class="error-txt"></div>
 
             <div class="field input">
                 <label for="">Email</label>
-                <input type="text" placeholder="Введіть email">
+                <input type="text" name="email" placeholder="Введіть email">
             </div>
             <div class="field input">
                 <label for="">Пароль</label>
-                <input type="password" placeholder="Введіть новий пароль">
+                <input type="password" name="password" placeholder="Введіть новий пароль">
                 <i class="fas fa-eye"></i>
             </div>
 
@@ -31,11 +31,12 @@
                 <input type="submit" value="Пачати спілкування">
             </div>
         </form>
-        <div class="link">Не зареєстровані? <a href="#">Зареєструйся зараз</a></div>
+        <div class="link">Не зареєстровані? <a href="index.php">Зареєструйся зараз</a></div>
     </section>
 </div>
 
 <script src="js/pass-show-hide.js"></script>
+<script src="js/login.js"></script>
 
 </body>
 </html>
