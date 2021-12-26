@@ -37,7 +37,7 @@
           <p><?=$row['status']?></p>
         </div>
       </div>
-      <a href="#" class="logout">Вихід</a>
+      <a href="php/logout.php?logout_id=<?=$row['unique_id']?>" class="logout">Вихід</a>
     </header>
     <div class="search">
       <span class="text">Виберіть користувача для початку чату</span>
